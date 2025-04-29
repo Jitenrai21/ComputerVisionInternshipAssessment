@@ -48,20 +48,20 @@ This opens a webcam feed for color detection.
 📂 Project Structure
 
 ComputerVisionInternshipAssessment/
-├── task1              
-    ├── main.py          # Static image processing script 🖼️
-    ├── image.jpg        # Static image
-    ├── output_blurred.jpg    
-    ├── output_edges.jpg
-    └── output_grayscale.jpg
-├── task2             
-    ├── main.py          # Webcam color detection application 🎨
-    ├── colors.csv
-    └── Webcam Feed      # Project demo video
-├── task3             
-    ├── CVInternshipAssessmentReport.pdf 
-├── requirements.txt     # Project dependencies 📋
-└── README.md            # The Readme.md file 📖
+├── task1
+│   ├── main.py               # Static image processing script (blurring, edge detection, grayscale)
+│   ├── image.jpg             # Input static image
+│   ├── output_blurred.jpg    # Blurred image output
+│   ├── output_edges.jpg      # Edge-detected image output
+│   └── output_grayscale.jpg  # Grayscale image output
+├── task2
+│   ├── main.py               # Webcam color detection application
+│   ├── colors.csv            # CSV file with color data
+│   └── Webcam Feed           # Demo video of webcam feed
+├── task3
+│   ├── CVInternshipAssessmentReport.pdf  # Internship assessment report
+├── requirements.txt          # Project dependencies
+└── README.md                 # Project documentation
 
 📸 Example Use Case
 The project is designed to handle standard images:
